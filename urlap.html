@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="stilus.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <main>
+        <header>
+            <h1>Szavazás</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Jelöltek</a></li>
+                <li><a href="urlap.html">Szavazás</a>
+                </li>
+            </ul>
+        </nav>
+        <article>
+            <form action="feldolgoz.php" method="get">
+                <fieldset>
+                    <legend>Szavazó adatai:</legend>
+                    <div class="alt">
+                        <label for="nev">Név</label>
+                        <input type="text" name="nev" id="nev" value="Gipsz Jakab">
+                    </div>
+                    <div>
+                        <label for="szul">Születési dátum</label>
+                        <input type="date" name="szul" id="szul">
+                    </div>
+
+                    <div>
+                        <label for="">Email cím</label>
+                        <input type="email" name="email" id="email" placeholder="blabla@gmail.com">
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Ki nyerje az első félév legkomolyabb programozója címet?</legend>
+                    <div class="programozo">
+                        <input type="radio" name="nev" id="levi" value="Levente">
+                        <label for="Levente">Horváth Levente Roland
+                        </label> <br>
+                        <input type="radio" name="nev" id="kira" value="Kira">
+                        <label for="Kira">Kiss Kira Lujza</label> <br>
+                        <input type="radio" name="nev" id="vajk" value="Vajk">
+                        <label for="Vajk">Hóman Vajk Gábor</label> <br>
+                        <input type="radio" name="nev" id="reka" value="Reka">
+                        <label for="Reka">Gyárfás Réka </label> <br>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Indoklás</legend>
+                    <div class="indok">
+                        <label for="indoklas">Kérjük fogalmazza meg itt indoklását pár szóban:</label>
+                        <input type="text" name="indok" id="indok" placeholder="Indoklás...">
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Ki nyerje a legkomolyabb fejlődést mutató diák címet?</legend>
+                    <div class="fejlodes">
+                        <input type="radio" name="nev" id="levi" value="Levente">
+                        <label for="Levente">Horváth Levente Roland
+                        </label> <br>
+                        <input type="radio" name="nev" id="kira" value="Kira">
+                        <label for="Kira">Kiss Kira Lujza</label> <br>
+                        <input type="radio" name="nev" id="vajk" value="Vajk">
+                        <label for="Vajk">Hóman Vajk Gábor</label> <br>
+                        <input type="radio" name="nev" id="reka" value="Reka">
+                        <label for="Reka">Gyárfás Réka </label> <br>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Indoklás</legend>
+                    <div class="indok">
+                        <label for="indoklas">Kérjük fogalmazza meg itt indoklását pár szóban:</label>
+                        <input type="text" name="indok" id="indok" placeholder="Indoklás...">
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Ki nyerje a legtöbbet hiányzó díjat?</legend>
+                    <div class="fejlodes">
+                        <input type="radio" name="nev" id="levi" value="Levente">
+                        <label for="Levente">Horváth Levente Roland
+                        </label> <br>
+                        <input type="radio" name="nev" id="kira" value="Kira">
+                        <label for="Kira">Kiss Kira Lujza</label> <br>
+                        <input type="radio" name="nev" id="vajk" value="Vajk">
+                        <label for="Vajk">Hóman Vajk Gábor</label> <br>
+                        <input type="radio" name="nev" id="reka" value="Reka">
+                        <label for="Reka">Gyárfás Réka </label> <br>
+                    </div>
+                </fieldset>
+                <div>
+                    <input type="submit" value="Szavazatom véglegesítem" id="submit">
+                </div>
+
+            </form>
+        </article>
+    </main>
+    <footer></footer>
+</body>
+
+</html>
