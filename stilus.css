@@ -6,11 +6,11 @@ body{
     max-width: 1000px;
     width: 80%;
     margin: auto;
-    color: white;
+    color: aquamarine;
     text-align: center;
 }
 main{
-    background-color: black.2;
+    background-color: black;
     border-radius: 15px;
    
 }
@@ -18,11 +18,24 @@ header{
     border: 2px solid aquamarine;  
     color: aquamarine;
     border-radius: 15px;
+    margin-bottom: 5px;
 }
 nav{
     border: 2px solid aquamarine;  
     color: aquamarine;
     border-radius: 15px;
+    margin-bottom: 5px;
+}
+nav li{
+    list-style-type: none;
+}
+nav a{
+    color: aquamarine;
+    text-decoration: none;
+
+}
+a:hover{
+    color: aliceblue;
 }
 nav ul{
     display: grid;
@@ -30,7 +43,6 @@ nav ul{
     text-align: center;
 }
 article{
-
     border-radius: 15px;
     border: 2px solid aquamarine;
     display: grid;
